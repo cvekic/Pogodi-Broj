@@ -40,6 +40,7 @@ public class Grafika {
             strike--;
             numberOfShotsTextField.setText(String.valueOf(strike));
             if (getInput == gooalNumber) {
+                bingoTextField.setText(String.valueOf(gooalNumber));
                 JOptionPane.showMessageDialog(null, "You WIN!!!");
                 System.exit(0);
             }
